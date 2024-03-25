@@ -1,11 +1,12 @@
 package main
 
 import (
+	"log"
 	"net/http"
 
-	"github.com/gorilla/mux"
-
 	"github.com/LifeValuable/bookstore/pkg/routers"
+	"github.com/gorilla/mux"
+	_ "gorm.io/driver/mysql"
 )
 
 func main() {
